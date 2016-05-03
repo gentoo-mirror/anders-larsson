@@ -27,6 +27,7 @@ SLOT="0"
 IUSE="test"
 
 RDEPEND="
+	dev-db/sqlite
 	dev-qt/qtcore:5
 	dev-qt/qtgui:5
 	dev-qt/qtnetwork:5
@@ -47,13 +48,14 @@ pkg_setup() {
 }
 
 src_prepare() {
-	 if ! use test; then
-		 sed -e "/^QT/ s/testlib//" \
-			 -e "/\W*test\//d" -i acquisition.pro || die
-		 sed -e "/QCommandLineOption/ s/option_test\S*//" \
-			 -e "/testmain.h/d" -e "/option_test/d" \
-			 -e "/test_main/d" -i src/main.cpp || die
-	 fi
+	sed -e "/INCLUDEPATH/ s/deps\/boost-header-only//" -i acquisition.pro || die
+	if ! use test; then
+		sed -e "/^QT/ s/testlib//" \
+			-e "/\W*test\//d" -i acquisition.pro || die
+		sed -e "/QCommandLineOption/ s/option_test\S*//" \
+			-e "/testmain.h/d" -e "/option_test/d" \
+			-e "/test_main/d" -i src/main.cpp || die
+	fi
 }
 
 src_configure() {
