@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -35,6 +35,7 @@ RDEPEND="
 	dev-qt/qtwidgets:5
 	"
 DEPEND="${RDEPEND}
+	dev-libs/boost
 	test? (
 		dev-qt/qttest:5
 	)
