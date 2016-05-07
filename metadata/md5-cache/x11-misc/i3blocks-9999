@@ -8,4 +8,4 @@ RDEPEND=x11-wm/i3
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-2 src_install:-
 _eclasses_=git-2	672c3929a162f221a53b4ccb4d25d8a2
-_md5_=531dffec777cd85cd807178b27599c6e
+_md5_=1d0f5993db6e5a94082798ff4b637d81
