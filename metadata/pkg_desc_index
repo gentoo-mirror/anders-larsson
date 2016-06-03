@@ -1,4 +1,4 @@
-games-util/acquisition 0.5 0.5d 0.5e 0.5f 9999: Acquisition is an inventory management tool for Path of Exile
+games-util/acquisition 0.5 0.5d 0.5e 0.5f 0.5g 9999: Acquisition is an inventory management tool for Path of Exile
 games-util/dwarf-therapist 36.0.0 37.0.0 9999: Dwarf Fortress extension to manage dwarves
 media-sound/playerctl 0.4.2 0.5.0 9999: Command-line utility to control media players using MPRIS
 media-video/simplescreenrecorder 0.3.3-r1 0.3.5 0.3.6 9999: A Simple Screen Recorder
