@@ -4,7 +4,7 @@
 
 EAPI=6
 
-inherit eutils
+inherit eutils pax-utils
 
 DESCRIPTION="All-in-one voice and text chat"
 
@@ -13,6 +13,7 @@ HOMEPAGE="https://discordapp.com/"
 SRC_URI="https://dl-canary.discordapp.net/apps/linux/${PV}/discord-canary-${PV}.tar.gz"
 RESTRICT="mirror"
 KEYWORDS="~amd64"
+IUSE="pax_kernel"
 
 SLOT="0"
 LICENSE="hammer-and-chisel"
@@ -36,6 +37,11 @@ DEPEND="${RDEPEND}
 S=${WORKDIR}/DiscordCanary
 
 src_install() {
+    if use pax_kernel; then
+        pax-mark m ${S}/DiscordCanary
+    fi
+
+
 	local destdir="/opt/${PN}"
 
 	insinto $destdir
