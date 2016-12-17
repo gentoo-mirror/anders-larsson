@@ -41,7 +41,6 @@ src_install() {
         pax-mark m ${S}/DiscordCanary
     fi
 
-
 	local destdir="/opt/${PN}"
 
 	insinto $destdir
