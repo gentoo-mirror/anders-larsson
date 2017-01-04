@@ -2,5 +2,5 @@ games-util/acquisition 0.5g 0.5h 9999: Acquisition is an inventory management to
 games-util/dwarf-therapist 37.0.0 9999: Dwarf Fortress extension to manage dwarves
 media-sound/playerctl 0.5.0 9999: Command-line utility to control media players using MPRIS
 media-video/simplescreenrecorder 0.3.6 0.3.7 0.3.8 9999: A Simple Screen Recorder
-x11-misc/discord 0.0.8 0.0.9 0.0.10 0.0.11: All-in-one voice and text chat
+x11-misc/discord 0.0.8 0.0.9 0.0.10 0.0.11 0.0.13: All-in-one voice and text chat
 x11-misc/i3blocks 1.4 9999: highly flexible status line for the i3 window manager
