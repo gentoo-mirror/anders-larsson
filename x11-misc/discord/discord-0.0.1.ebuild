@@ -10,7 +10,7 @@ DESCRIPTION="All-in-one voice and text chat"
 
 HOMEPAGE="https://discordapp.com/"
 
-SRC_URI="https://dl-canary.discordapp.net/apps/linux/${PV}/discord-canary-${PV}.tar.gz"
+SRC_URI="https://dl.discordapp.net/apps/linux/${PV}/${PN}-${PV}.tar.gz"
 RESTRICT="mirror"
 KEYWORDS="~amd64"
 
@@ -33,7 +33,15 @@ DEPEND="${RDEPEND}
 	x11-libs/libXtst
 	"
 
-S=${WORKDIR}/DiscordCanary
+S=${WORKDIR}/Discord
+
+pkg_setup() {
+	einfo "Discord has been released officially and they moved back to version"
+	einfo "0.0.1 hence the version is back at 0.0.1."
+	einfo "If you moved from the canary builds: Configuration files has been"
+	einfo "moved from ~/.config/discordcanary to ~/.config/discord and will"
+	einfo "require you to sign in again."
+}
 
 src_install() {
 	local destdir="/opt/${PN}"
@@ -54,9 +62,9 @@ src_install() {
 		libffmpeg.so
 
 	exeinto $destdir
-	doexe DiscordCanary
+	doexe Discord
 
-	dosym $destdir/DiscordCanary /usr/bin/discord
+	dosym $destdir/Discord /usr/bin/discord
 	make_desktop_entry discord Discord \
 		"/opt/discord/discord.png" \
 		Network
