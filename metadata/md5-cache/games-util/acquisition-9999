@@ -1,12 +1,11 @@
 DEFINED_PHASES=configure install prepare setup unpack
-DEPEND=dev-db/sqlite dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwebkit:5 dev-qt/qtwidgets:5 dev-libs/boost test? ( dev-qt/qttest:5 ) >=dev-vcs/git-1.8.2.1
+DEPEND=dev-db/sqlite dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwebengine:5[widgets] dev-qt/qtwidgets:5 dev-libs/boost test? ( dev-qt/qttest:5 ) >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Acquisition is an inventory management tool for Path of Exile
 EAPI=6
 HOMEPAGE=http://github.com/xyzz/acquisition
 IUSE=test
 LICENSE=GPL-3
-RDEPEND=dev-db/sqlite dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwebkit:5 dev-qt/qtwidgets:5
+RDEPEND=dev-db/sqlite dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwebengine:5[widgets] dev-qt/qtwidgets:5
 SLOT=0
-_eclass_exported_funcs=pkg_setup:- src_unpack:git-r3 src_prepare:- src_configure:- src_install:-
 _eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	git-r3	4f7ddb4119309845d6687213171ab445	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	990448b067cb3cfe1443bc25fb57239c	toolchain-funcs	185a06792159ca143528e7010368e8af
-_md5_=5e9752e3bb899c9713240731f92b7897
+_md5_=2fe348aa81a2ed45cb5c12af91d49dd5
