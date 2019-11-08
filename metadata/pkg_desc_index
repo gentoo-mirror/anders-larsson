@@ -1,5 +1,5 @@
 games-util/acquisition 0.8b 9999: Acquisition is an inventory management tool for Path of Exile
-games-util/dwarf-therapist 41.0.3 41.1.0 9999: Dwarf Fortress extension to manage dwarves
+games-util/dwarf-therapist 41.0.3 41.1.0 41.1.1 9999: Dwarf Fortress extension to manage dwarves
 net-dns/bind-adblock 9999: Fetch various blocklists and generate a BIND zone from them.
 www-apps/freshrss 1.14.3 1.15.0 1.15.1 9999: FreshRSS - a free, self-hostable aggregator
 x11-misc/i3blocks 9999: highly flexible status line for the i3 window manager
