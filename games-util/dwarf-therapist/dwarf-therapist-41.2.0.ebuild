@@ -1,7 +1,7 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 inherit cmake-utils
 
@@ -65,12 +65,4 @@ src_configure()
 	fi
 
 	cmake-utils_src_configure
-}
-
-pkg_postinst() {
-	if [[ ${REPLACING_VERSIONS} < 40.0.0 ]]; then
-		ewarn "In version 40.0.0 configuration files for Linux has been moved from"
-		ewarn "~/.config/UDP Software/Dwarf Therapist.ini to ~/.config/dwarftherapist/dwarftherapist.ini"
-		ewarn "If you want to keep your old settings don't forget to copy/move it"
-	fi
 }
