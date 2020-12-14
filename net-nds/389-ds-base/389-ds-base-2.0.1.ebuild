@@ -3,7 +3,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python{3_5,3_6,3_7} )
+PYTHON_COMPAT=( python{3_6,3_7,3_8,3_9} )
 WANT_AUTOMAKE="1.13"
 
 inherit user eutils multilib flag-o-matic autotools distutils-r1
@@ -62,16 +62,6 @@ RDEPEND="${COMMON_DEPEND}
 	dev-python/python-dateutil"
 
 pkg_setup() {
-	if [ -n "${REPLACING_VERSIONS}" ]; then
-		if ver_test $REPLACING_VERSIONS -lt 1.3.7; then
-			echo
-			eerror "It is not possible to update from ${REPLACING_VERSIONS}."
-			eerror "At least version 1.3.7 is required to update to 1.4.x."
-			eerror "Read more here: https://directory.fedoraproject.org/docs/389ds/howto/howto-install-389.html"
-			echo
-			die
-		fi
-	fi
 	enewgroup dirsrv
 	enewuser dirsrv -1 -1 -1 dirsrv
 }
