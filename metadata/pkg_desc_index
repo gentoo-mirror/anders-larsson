@@ -4,5 +4,5 @@ dev-python/argparse-manpage 1.4 1.5: Automatically build man-pages for your Pyth
 games-util/dwarf-therapist 41.2.0 9999: Dwarf Fortress extension to manage dwarves
 gui-apps/systembus-notify 1.1: Tiny daemon that listens and sends desktop notifications using the user bus
 net-dns/bind-adblock 9999: Fetch various blocklists and generate a BIND zone from them.
-net-nds/389-ds-base 1.4.4.6 2.0.1 9999: 389 Directory Server (core librares and daemons )
+net-nds/389-ds-base 1.4.4.6 2.0.1 2.0.2 9999: 389 Directory Server (core librares and daemons )
 www-apps/freshrss 1.14.3 1.15.0 1.15.1 1.15.2 1.15.3 1.16.0 1.16.1 1.16.2 1.17.0 9999: FreshRSS - a free, self-hostable aggregator
