@@ -3,10 +3,11 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Fetch various blocklists and generate a BIND zone from them.
 EAPI=6
 HOMEPAGE=https://github.com/Trellmor/bind-adblock
+INHERIT=git-r3
 KEYWORDS=~amd64
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=dev-python/pycryptodome dev-python/dnspython dev-python/requests dev-python/pyyaml
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=efa586efedc1705fdd522bc212ed9b66
