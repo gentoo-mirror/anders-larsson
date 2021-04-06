@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=dev-python/pycryptodome dev-python/dnspython dev-python/requests dev-python/pyyaml
 SLOT=0
 _eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
-_md5_=efa586efedc1705fdd522bc212ed9b66
+_md5_=40c4c422df288bed4baca0dbf8a9374c
