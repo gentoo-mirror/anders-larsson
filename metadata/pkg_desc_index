@@ -1,4 +1,4 @@
-app-admin/duo_unix 1.11.3 1.11.5: Duo two-factor authentication for Unix systems
+app-admin/duo_unix 1.11.3 1.11.5 1.12.0: Duo two-factor authentication for Unix systems
 games-util/dwarf-therapist 41.2.2 41.2.3 9999: Dwarf Fortress extension to manage dwarves
 gui-apps/systembus-notify 1.1: Tiny daemon that listens and sends desktop notifications using the user bus
 net-dns/bind-adblock 9999: Fetch various blocklists and generate a BIND zone from them.
