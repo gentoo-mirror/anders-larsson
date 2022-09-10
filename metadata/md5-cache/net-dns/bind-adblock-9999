@@ -1,13 +1,14 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] virtual/pkgconfig
 DEFINED_PHASES=install unpack
 DESCRIPTION=Fetch various blocklists and generate a BIND zone from them.
 EAPI=7
 HOMEPAGE=https://github.com/Trellmor/bind-adblock
-INHERIT=git-r3
+INHERIT=git-r3 systemd
+IUSE=network-cron systemd
 KEYWORDS=~amd64
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=dev-python/pycryptodome dev-python/dnspython dev-python/requests dev-python/pyyaml
+RDEPEND=dev-python/pycryptodome dev-python/dnspython dev-python/requests dev-python/pyyaml dev-python/validators
 SLOT=0
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=6a3b17d83a0b3180c85827b1660ce46c
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	2736b403a83f194b59b767f3b344c2c1
+_md5_=872c59df2b4c4c949a5af425cbc3b0ce
