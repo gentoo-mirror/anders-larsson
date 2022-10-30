@@ -10,15 +10,14 @@ if [[ ${PV} = 9999 ]]; then
 fi
 
 DESCRIPTION="Dwarf Fortress extension to manage dwarves"
-HOMEPAGE="https://github.com/${PN}/${PN}"
+HOMEPAGE="https://github.com/Dwarf-Therapist/Dwarf-Therapist"
 LICENSE="MIT"
 
 if [[ ${PV} = 9999 ]]; then
 	EGIT_REPO_URI="https://github.com/${PN}/${PN}"
 	EGIT_BOOTSTRAP=""
-	KEYWORDS=""
 else
-	SRC_URI="https://github.com/${PN}/${PN}/archive/v${PV}.tar.gz"
+	SRC_URI="https://github.com/${PN}/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
 
 	MY_P="${P/dwarf-therapist/Dwarf-Therapist}"

@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit eutils webapp vcs-snapshot
+inherit webapp vcs-snapshot
 
 MY_PV="$(ver_rs 1- -)"
 
@@ -18,7 +18,6 @@ LICENSE="Unlicense"
 if [[ ${MY_PV} = 9999 ]]; then
 	EGIT_REPO_URI="https://github.com/RSS-bridge/${PN}.git"
 	EGIT_BOOTSTRAP=""
-	KEYWORDS=""
 else
 	SRC_URI="https://github.com/RSS-bridge/${PN}/archive/${MY_PV}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
@@ -28,7 +27,10 @@ fi
 IUSE="sqlite"
 
 DEPEND="
-	dev-lang/php:*[ssl,xml,unicode,simplexml,curl,json,filter,sqlite?]
+	|| (
+		<dev-lang/php-8[ssl,xml,unicode,simplexml,curl,json,filter,zip,sqlite?]
+		>=dev-lang/php-8[ssl,xml,unicode,simplexml,curl,filter,zip,sqlite?]
+	)
 	virtual/httpd-php:*
 "
 
