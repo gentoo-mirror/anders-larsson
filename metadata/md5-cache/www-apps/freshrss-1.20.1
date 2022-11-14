@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst prerm setup unpack
+DEPEND=|| ( <dev-lang/php-8[curl,xml,json,simplexml,session,ctype,pdo,mysql?,sqlite?,postgres?,gmp?,unicode?,iconv?,zip?,zlib?] >=dev-lang/php-8[curl,xml,simplexml,session,ctype,pdo,mysql?,sqlite?,postgres?,gmp?,unicode?,iconv?,zip?,zlib?] ) virtual/httpd-php:* || ( virtual/httpd-cgi virtual/httpd-fastcgi ) app-admin/webapp-config
+DESCRIPTION=FreshRSS - a free, self-hostable aggregator
+EAPI=7
+HOMEPAGE=https://freshrss.org/
+INHERIT=webapp vcs-snapshot
+IUSE=mysql sqlite postgres +gmp +unicode +iconv +zip +zlib vhosts
+KEYWORDS=~amd64 ~x86
+LICENSE=AGPL-3
+RDEPEND=|| ( <dev-lang/php-8[curl,xml,json,simplexml,session,ctype,pdo,mysql?,sqlite?,postgres?,gmp?,unicode?,iconv?,zip?,zlib?] >=dev-lang/php-8[curl,xml,simplexml,session,ctype,pdo,mysql?,sqlite?,postgres?,gmp?,unicode?,iconv?,zip?,zlib?] ) virtual/httpd-php:* app-admin/webapp-config
+SLOT=1.20.1
+SRC_URI=https://github.com/freshrss/freshrss/archive/1.20.1.tar.gz -> freshrss-1.20.1.tar.gz
+_eclasses_=webapp	67df5bab481d0b9428f9ab7b3de690e4	vcs-snapshot	eab6d8533446763c2e9777d8bbd1594e
+_md5_=13a0ab53e116899a395d7b0c8548844e
