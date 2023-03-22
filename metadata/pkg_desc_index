@@ -5,4 +5,4 @@ net-analyzer/nagios-plugin-check_smart 6.13.0: Nagios plugin to monitor SMART he
 net-analyzer/nagios-plugin-check_systemd 2.3.1: check_systemd is a Nagios / Icinga monitoring plugin to check systemd
 net-dns/bind-adblock 0_pre20220823 9999: Fetch various blocklists and generate a BIND zone from them.
 www-apps/freshrss 1.19.2 1.20.0 1.20.1 1.20.2 1.21.0 9999: FreshRSS - a free, self-hostable aggregator
-www-apps/rss-bridge 2021.04.25 2022.01.20 2022.06.10 2022.06.14 9999: The RSS feed for websites missing it
+www-apps/rss-bridge 2021.04.25 2022.01.20 2022.06.10 2022.06.14 2023.03.22 9999: The RSS feed for websites missing it
