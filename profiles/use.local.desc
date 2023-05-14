@@ -2,5 +2,7 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+gui-apps/inpulse-to-talk:policykit - Install policykit action to allow execution of script through policykit.
+gui-apps/inpulse-to-talk:scripts - Install wrapper scripts for inpulse-to-talk.
 net-dns/bind-adblock:network-cron - Adds a cron job which updates zone managed by bind-adblock.
 net-dns/bind-adblock:systemd - Adds systemd timer which updates zone managed by bind-adblock. Disabled by default.
