@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install postinst prerm setup unpack
-DEPEND=|| ( <dev-lang/php-8[ssl,xml,unicode,simplexml,curl,json,filter,zip,sqlite?] >=dev-lang/php-8[ssl,xml,unicode,simplexml,curl,filter,zip,sqlite?] ) virtual/httpd-php:* || ( virtual/httpd-cgi virtual/httpd-fastcgi ) app-admin/webapp-config
+DEPEND=dev-lang/php[ssl,xml,unicode,simplexml,curl,filter,zip,sqlite?] virtual/httpd-php:* || ( virtual/httpd-cgi virtual/httpd-fastcgi ) app-admin/webapp-config
 DESCRIPTION=The RSS feed for websites missing it
 EAPI=7
 HOMEPAGE=https://github.com/RSS-Bridge/rss-bridge
@@ -8,7 +8,7 @@ INHERIT=webapp vcs-snapshot git-r3
 IUSE=sqlite vhosts
 LICENSE=Unlicense
 PROPERTIES=live
-RDEPEND=|| ( <dev-lang/php-8[ssl,xml,unicode,simplexml,curl,json,filter,zip,sqlite?] >=dev-lang/php-8[ssl,xml,unicode,simplexml,curl,filter,zip,sqlite?] ) virtual/httpd-php:* app-admin/webapp-config
+RDEPEND=dev-lang/php[ssl,xml,unicode,simplexml,curl,filter,zip,sqlite?] virtual/httpd-php:* app-admin/webapp-config
 SLOT=9999
 _eclasses_=webapp	1aad5c010cfdf11d0376c80467b0de4c	vcs-snapshot	eab6d8533446763c2e9777d8bbd1594e	git-r3	2358a7b20091609e24bd3a83b3ac5991
-_md5_=fe72ebb3e8a29d068f56afd4e81ff052
+_md5_=0e8785e7c98da3d39744233f6ca5de31
