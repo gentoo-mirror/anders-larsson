@@ -1,5 +1,4 @@
 app-admin/duo_unix 1.11.3 1.11.5 1.12.0 1.12.1 2.0.0 2.0.1 2.0.2: Duo two-factor authentication for Unix systems
-games-util/dwarf-therapist 41.2.2 41.2.3 9999: Dwarf Fortress extension to manage dwarves
 gui-apps/inpulse-to-talk 3.0: Push-to-Talk with libinput
 gui-apps/systembus-notify 1.1: Tiny daemon that listens and sends desktop notifications using the user bus
 net-analyzer/nagios-plugin-check_smart 6.13.0 6.14.0 6.14.1: Nagios plugin to monitor SMART health values for disks
