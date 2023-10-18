@@ -10,5 +10,5 @@ LICENSE=Unlicense
 RDEPEND=dev-lang/php[ssl,xml,unicode,simplexml,curl,filter,zip,sqlite?] virtual/httpd-php:* app-admin/webapp-config
 SLOT=2023.09.24
 SRC_URI=https://github.com/RSS-bridge/rss-bridge/archive/2023-09-24.tar.gz
-_eclasses_=webapp	1aad5c010cfdf11d0376c80467b0de4c	vcs-snapshot	eab6d8533446763c2e9777d8bbd1594e
+_eclasses_=webapp	de2d3d345b44597c10d7104a7bcdf7b2	vcs-snapshot	eab6d8533446763c2e9777d8bbd1594e
 _md5_=a6cb348f0b68eaf25600f8fed167fb77

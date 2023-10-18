@@ -10,5 +10,5 @@ LICENSE=Unlicense
 PROPERTIES=live
 RDEPEND=dev-lang/php[ssl,xml,unicode,simplexml,curl,filter,zip,sqlite?] virtual/httpd-php:* app-admin/webapp-config
 SLOT=9999
-_eclasses_=webapp	1aad5c010cfdf11d0376c80467b0de4c	vcs-snapshot	eab6d8533446763c2e9777d8bbd1594e	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=webapp	de2d3d345b44597c10d7104a7bcdf7b2	vcs-snapshot	eab6d8533446763c2e9777d8bbd1594e	git-r3	2358a7b20091609e24bd3a83b3ac5991
 _md5_=a6cb348f0b68eaf25600f8fed167fb77
