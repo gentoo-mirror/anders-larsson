@@ -1,0 +1,16 @@
+BDEPEND=>=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] test? ( >=virtual/perl-Test-Simple-1 )
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=]
+DESCRIPTION=Nagios plugin to monitor SMART health values for disks
+EAPI=8
+HOMEPAGE=https://github.com/Napsty/check_smart
+INHERIT=perl-module vcs-snapshot
+IUSE=perl_features_debug perl_features_ithreads perl_features_quadmath test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=virtual/perl-Getopt-Long sys-apps/smartmontools >=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] dev-lang/perl:=
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/Napsty/check_smart/archive/6.14.3.tar.gz -> nagios-plugin-check_smart-6.14.3.tar.gz
+_eclasses_=multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	perl-functions	4deb7a19ff2e0a466d6f4c6c57099296	readme.gentoo-r1	32b48460d813533d85f082897cec1b80	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	perl-module	25ca2ff8e7971cb7f817f0bda4be696d	vcs-snapshot	3d327d546f76e4c2054573ff0d78fad2
+_md5_=30e690674a562f3b86747947b98c21e3

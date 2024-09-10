@@ -1,7 +1,7 @@
 app-admin/duo_unix 1.11.3 1.11.5 1.12.0 1.12.1 2.0.0 2.0.1 2.0.2: Duo two-factor authentication for Unix systems
 gui-apps/inpulse-to-talk 3.0: Push-to-Talk with libinput
 gui-apps/systembus-notify 1.1: Tiny daemon that listens and sends desktop notifications using the user bus
-net-analyzer/nagios-plugin-check_smart 6.13.0 6.14.0 6.14.1 6.14.2: Nagios plugin to monitor SMART health values for disks
+net-analyzer/nagios-plugin-check_smart 6.13.0 6.14.0 6.14.1 6.14.2 6.14.3: Nagios plugin to monitor SMART health values for disks
 net-analyzer/nagios-plugin-check_systemd 4.1.0: check_systemd is a Nagios / Icinga monitoring plugin to check systemd
 net-dns/bind-adblock 0_pre20220823 9999: Fetch various blocklists and generate a BIND zone from them.
 sys-auth/pam_rssh 1.1.0 1.2.0_rc1 1.2.0_rc2: This PAM module provides ssh-agent based authentication
