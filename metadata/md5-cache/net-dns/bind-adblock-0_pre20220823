@@ -10,5 +10,5 @@ LICENSE=MIT
 RDEPEND=dev-python/pycryptodome dev-python/dnspython dev-python/requests dev-python/pyyaml dev-python/validators
 SLOT=0
 SRC_URI=https://github.com/Trellmor/bind-adblock/archive/85e70560d9804bd92b7d0a4d9833ccc8b7a4c74a.tar.gz -> bind-adblock-0_pre20220823.tar.gz
-_eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	systemd	54bd206bb5c4efac6ae28b6b006713b0
+_eclasses_=toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	multilib	b2a329026f2e404e9e371097dda47f96	systemd	54bd206bb5c4efac6ae28b6b006713b0
 _md5_=f88bff970bb51dbd60ab721c6d1f9230
