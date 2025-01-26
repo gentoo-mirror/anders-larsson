@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst prerm setup unpack
+DEPEND=dev-lang/php[ssl,xml,unicode,simplexml,curl,filter,zip,sqlite?] virtual/httpd-php:* || ( virtual/httpd-cgi virtual/httpd-fastcgi ) app-admin/webapp-config
+DESCRIPTION=The RSS feed for websites missing it
+EAPI=8
+HOMEPAGE=https://github.com/RSS-Bridge/rss-bridge
+INHERIT=webapp vcs-snapshot
+IUSE=sqlite vhosts
+KEYWORDS=~amd64 ~x86
+LICENSE=Unlicense
+RDEPEND=dev-lang/php[ssl,xml,unicode,simplexml,curl,filter,zip,sqlite?] virtual/httpd-php:* app-admin/webapp-config
+SLOT=2025.01.26
+SRC_URI=https://github.com/RSS-bridge/rss-bridge/archive/2025-01-26.tar.gz
+_eclasses_=webapp	5fa840db95fc7348dfd53b8526ed05f5	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
+_md5_=f6dff86c40de3ac70e7d2b62015008f9
