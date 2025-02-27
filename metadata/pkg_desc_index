@@ -4,6 +4,6 @@ net-analyzer/nagios-plugin-check_smart 6.14.3 6.15.0: Nagios plugin to monitor S
 net-analyzer/nagios-plugin-check_systemd 4.1.0 4.1.1: check_systemd is a Nagios / Icinga monitoring plugin to check systemd
 net-dns/bind-adblock 0_pre20220823 9999: Fetch various blocklists and generate a BIND zone from them.
 sys-auth/pam_rssh 1.1.0 1.2.0_rc1 1.2.0_rc2: This PAM module provides ssh-agent based authentication
-sys-cluster/k3s-bin 1.32.0 1.32.1: Lightweight Kubernetes (binary package)
+sys-cluster/k3s-bin 1.32.0 1.32.1 1.32.2: Lightweight Kubernetes (binary package)
 www-apps/freshrss 1.24.3 1.25.0 1.26.0 9999: FreshRSS - a free, self-hostable aggregator
 www-apps/rss-bridge 2024.02.02 2025.01.02 2025.01.26 9999: The RSS feed for websites missing it
