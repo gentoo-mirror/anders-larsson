@@ -6,3 +6,5 @@ gui-apps/inpulse-to-talk:policykit - Install policykit action to allow execution
 gui-apps/inpulse-to-talk:scripts - Install wrapper scripts for inpulse-to-talk.
 net-dns/bind-adblock:network-cron - Adds a cron job which updates zone managed by bind-adblock.
 net-dns/bind-adblock:systemd - Adds systemd timer which updates zone managed by bind-adblock. Disabled by default.
+www-apps/gotify-server-bin:logrotate - Use app-admin/logrotate for rotating logs
+www-apps/gotify-server-bin:systemd - Use systemd for service management
