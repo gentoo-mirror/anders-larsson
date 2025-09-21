@@ -8,5 +8,5 @@ net-dns/bind-adblock 0_pre20220823 9999: Fetch various blocklists and generate a
 sys-auth/pam_rssh 1.1.0 1.2.0_rc1 1.2.0_rc2: This PAM module provides ssh-agent based authentication
 sys-cluster/k3s-bin 1.32.0 1.32.1 1.32.2 1.32.3 1.32.4 1.32.5 1.33.2 1.33.3 1.33.4: Lightweight Kubernetes (binary package)
 www-apps/freshrss 1.24.3 1.25.0 1.26.0 1.26.1 1.26.2 1.26.3 1.27.0 9999: FreshRSS - a free, self-hostable aggregator
-www-apps/gotify-server-bin 2.6.3 2.7.2: Simple server for sending and receiving messages in real-time per WebSocket
+www-apps/gotify-server-bin 2.6.3 2.7.2 2.7.3: Simple server for sending and receiving messages in real-time per WebSocket
 www-apps/rss-bridge 2024.02.02 2025.01.02 2025.01.26 2025.06.03 2025.08.05 9999: The RSS feed for websites missing it
