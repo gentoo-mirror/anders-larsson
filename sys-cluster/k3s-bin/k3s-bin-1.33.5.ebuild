@@ -41,3 +41,10 @@ src_install() {
 	insinto /etc/logrotate.d
 	newins "${FILESDIR}/k3s.logrotated" k3
 }
+
+pkg_postinst() {
+	elog ""
+	elog "Remember to read release notes for both k3s and Kubernetes"
+	elog "when updating k3s to ensure a smooth upgrade."
+	elog ""
+}
